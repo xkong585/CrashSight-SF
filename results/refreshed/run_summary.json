@@ -1,0 +1,56 @@
+{
+  "input_sha256": "1963df10ce056d6ef84bb2741b4edcb249e945635edc3651fb3a71a01e11de1a",
+  "raw_records": 61702,
+  "unique_dated_records": 61700,
+  "coordinate_valid_records": 61523,
+  "date_min": "2005-01-01 01:15:00",
+  "date_max": "2025-02-28 19:56:00",
+  "duplicates_removed": 2,
+  "invalid_dates": 0,
+  "model": {
+    "task": "Severe/fatal versus other injury among recorded injury crashes",
+    "train_records": 55326,
+    "validation_records": 2923,
+    "test_records": 3014,
+    "train_years": "through 2022",
+    "validation_year": 2023,
+    "test_year": 2024,
+    "roc_auc": 0.6740282462285616,
+    "average_precision": 0.1993335082891956,
+    "test_prevalence": 0.10185799601857996,
+    "threshold": 0.13403706646928246,
+    "threshold_selection": "Maximum F1 on 2023 validation set only",
+    "confusion_matrix": [
+      [
+        2438,
+        269
+      ],
+      [
+        227,
+        80
+      ]
+    ]
+  },
+  "facility_scenarios": [
+    {
+      "facilities": 8,
+      "weighted_mean_distance_km": 1.2688564672098885,
+      "within_1km": 0.46287465940054495,
+      "within_2km": 0.8327656675749319
+    },
+    {
+      "facilities": 10,
+      "weighted_mean_distance_km": 1.1861703557002587,
+      "within_1km": 0.5269073569482289,
+      "within_2km": 0.8331062670299727
+    },
+    {
+      "facilities": 12,
+      "weighted_mean_distance_km": 1.1184590781407078,
+      "within_1km": 0.5994550408719346,
+      "within_2km": 0.8358310626702997
+    }
+  ],
+  "python": "3.12.14",
+  "scope": "New portable EDA, temporal severity baseline, and deterministic siting scenario. Original Colab grid-risk, Moran/LISA and TSP outputs not revalidated."
+}
