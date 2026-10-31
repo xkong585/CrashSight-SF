@@ -2,11 +2,6 @@
 
 A reproducible view of San Francisco injury crashes: when they occur, where they concentrate, and how location scenarios change service distance.
 
-## Project participation
-
-This was a collaborative group project, and I actively contributed to every stage of its development.
-
-Original team repository: [sunaminusone/CrashSight-SF](https://github.com/sunaminusone/CrashSight-SF). Original author and repository maintainer: Meixuan Li (Suna). This portfolio edition preserves the original notebooks, outputs, and [project documentation](docs/ORIGINAL_README.md), and adds a separately documented local reproduction.
 
 ## The question
 
